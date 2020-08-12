@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('/img/tomato.jpg')no-repeat center center/cover;
+}
+.container{
+    background-color: #ffffff;
+    margin: 3rem 18rem;
+    display: flex;
+    flex-direction: column;
+}
+.signup_title{
+    display: flex;
+    justify-content: center;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.work_input{
+    width: 100%;
+}
+.work-mail{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}

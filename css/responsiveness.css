@@ -1,0 +1,61 @@
+@media (max-width: 500px) {
+    #navbar{
+        display: block!important;
+    }
+    .hbt{
+        padding-bottom: 0.5rem;
+    }
+    
+    .hbt h2{
+        font-size: 16px;
+        text-align: center;
+        border-bottom: 1px solid #aaaaaa;
+    }
+    #navbar .navbar ul{
+        text-align: center;
+        display: block;
+        
+    }
+    #navbar .navbar ul li{
+        border-bottom: 1px solid #aaaaaa;
+        padding-bottom: 0.5rem;
+        font-size: 16px;
+    }
+
+    #navbar .navbar ul li a{
+        
+        font-size: 16px;
+    }
+    #navbar .navbar ul li a.active, #navbar .navbar ul li a:hover{
+        padding: 0rem;
+        color: #f7c08a;
+        background: none;
+    }
+    #showcase p{
+        text-align: center;
+        padding: 0rem 2rem;
+    }
+    .history .container .place{
+        display: none;
+    }
+    .history .container .rest_hist{
+        width: 100%;
+    }
+    .h1, .h5, .p{
+        font-size: 16px;
+        text-align: center;
+    }
+    section.services{
+        display: block;
+    }
+    .services .service_content{
+        text-align: center;
+        width: 82.2%;
+    }
+    
+}
+@media (min-width: 501px) and (max-width: 768px) {
+    #showcase{
+        padding: 0rem 6rem;
+    }
+}

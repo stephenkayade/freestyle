@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #666;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.blue{
+    color: rgba(3, 62, 150, 0.685);
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: rgb(221, 203, 38);
+}
+.green{
+    color: green;
+}
+.google{
+    font-size: 90px;
+    
+}
+.form{
+    margin-top: 2rem;
+    
+}
+.input{
+    height:3rem;
+    width: 550px;
+    border-radius: 30px;
+    outline: none;
+    border-style: none;
+    border: 1px solid #dad7d7;
+    background: transparent;
+    padding-left: 2rem;
+    color: #000000de;
+}
+.links{
+    display: flex;
+    margin-top: 1rem;
+}
+.search{
+    padding: 2rem 0.5rem;
+}
+.link1{
+    color: #333333;
+    font-size: 1rem;
+    text-decoration: none;
+    background: #f2f2f2;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.paragraphs{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.paragraphs a{
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0rem 0.5rem;
+}
+.top{
+    padding: 0rem 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.top a{
+    text-decoration: none;
+    padding: 1.5rem 0.5rem;
+    color: #000000de;
+    font-size: 12px;
+}
+.top-A{
+    margin: 1rem 1rem ;
+    background: purple;
+    border-radius: 50%;
+}
+.top-A a{
+    margin-top: 0.3rem;
+    color: #ffffff;
+}
+.bottom-nav{
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    background: #f2f2f2;
+    border-top:1px solid #999999;
+}
+.nav1 a{
+
+    color: #000000de;
+    text-decoration: none;
+    
+}
+.nav-item{
+
+    padding: 0.5rem 0rem;
+}
+.nigeria{
+    background: #f2f2f2;
+}
